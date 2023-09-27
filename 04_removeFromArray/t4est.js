@@ -1,3 +1,6 @@
+let theArray = [1, 2, 3, 4, 5, 6, 7]
+let remove = 4;
+
 const removeFromArray = function(theArray, remove, rest) {
     if (arguments.length === 2){
         if  (theArray.indexOf(remove) === -1){
@@ -22,6 +25,3 @@ const removeFromArray = function(theArray, remove, rest) {
         return theArray;
     }
 };
-
-// Do not edit below this line
-module.exports = removeFromArray;
